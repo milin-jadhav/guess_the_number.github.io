@@ -31,7 +31,8 @@ function guessNumber() {
     }
     else if (isNaN(a) || (a >  100) || (a <= 0)) {
         alert("Please enter a valid number between 1 to 100");
-        document.getElementById("txtNum").value = "";                
+        a="";  
+        document.getElementById("txtNum").value="";    
         tries++
         tries = tries
     }
