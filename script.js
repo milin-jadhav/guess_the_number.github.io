@@ -29,7 +29,7 @@ function guessNumber() {
         window.location.reload();
 
     }
-    else if (isNaN(a) || (a > 100) || (a <= 0)) {
+    else if (isNaN(a) || (a >  100) || (a <= 0)) {
         alert("Please enter a valid number between 1 to 100");
         tries++
         tries = tries
